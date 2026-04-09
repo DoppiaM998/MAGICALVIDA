@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Percorsi 1:1 - ALMA Coaching Spirituale</title>
+  <link rel="stylesheet" href="/css/style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;1,300;1,400&family=Quicksand:wght@300;400;500;600&family=Tangerine:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+  <nav class="navbar">
+    <div class="nav-container">
+      <a href="/" class="logo">
+        <span class="logo-main">ALMA</span>
+        <span class="logo-subtitle">coaching life</span>
+      </a>
+      <ul class="nav-links">
+        <li><a href="/corsi.html">Percorsi</a></li>
+        <li><a href="/deluxe.html">Percorso Deluxe</a></li>
+        <li><a href="/chisono.html">Chi Sono</a></li>
+        <li><a href="/collaborazioni.html">Collaborazioni</a></li>
+        <li><a href="/#contatti">Contatti</a></li>
+      </ul>
+      <div class="lang-switch">
+        <span class="active">IT</span> | <span>ES</span>
+      </div>
+      <button class="mobile-menu-btn">
+        <i class="fas fa-bars"></i>
+      </button>
+    </div>
+  </nav>
+
+  <section class="page-hero">
+    <div class="page-hero-content">
+      <h1>Percorsi di Trasformazione</h1>
+      <p>Sessioni 1:1 personalizzate per il tuo risveglio interiore</p>
+    </div>
+  </section>
+
+  <section class="courses" id="corsi">
+    <div class="courses-grid">
+      <div class="course-card featured">
+        <div class="course-badge">Pack 5 Sessioni</div>
+        <div class="course-icon">
+          <i class="fas fa-coins"></i>
+        </div>
+        <h3>Abbondanza e Denaro</h3>
+        <p>Trasforma il tuo rapporto con la prosperità e apri le porte all'abbondanza. Un percorso per liberarti dai blocchi finanziari e manifestare ricchezza nella tua vita.</p>
+        <ul class="course-features">
+          <li><i class="fas fa-check"></i> 5 sessioni 1:1 (60 min)</li>
+          <li><i class="fas fa-check"></i> Meditazioni guidate</li>
+          <li><i class="fas fa-check"></i> Rituali di abbondanza</li>
+          <li><i class="fas fa-check"></i> Supporto WhatsApp</li>
+        </ul>
+        <div class="course-price">
+          <span class="price">€299</span>
+        </div>
+        <button class="buy-btn large" onclick="checkout('abbondanza')">
+          <i class="fas fa-calendar-check"></i> Prenota Ora
+        </button>
+      </div>
+
+      <div class="course-card featured">
+        <div class="course-badge">Pack 5 Sessioni</div>
+        <div class="course-icon">
+          <i class="fas fa-heart"></i>
+        </div>
+        <h3>Guarigione dai Traumi</h3>
+        <p>Liberati dal peso del passato e guarisci le tue ferite emotive. Un percorso profondo per ritrovare la pace interiore e rinascere.</p>
+        <ul class="course-features">
+          <li><i class="fas fa-check"></i> 5 sessioni 1:1 (60 min)</li>
+          <li><i class="fas fa-check"></i> Meditazioni guidate</li>
+          <li><i class="fas fa-check"></i> Tecniche di rilascio emotivo</li>
+          <li><i class="fas fa-check"></i> Supporto WhatsApp</li>
+        </ul>
+        <div class="course-price">
+          <span class="price">€299</span>
+        </div>
+        <button class="buy-btn large" onclick="checkout('guarigione')">
+          <i class="fas fa-calendar-check"></i> Prenota Ora
+        </button>
+      </div>
+
+      <div class="course-card featured">
+        <div class="course-badge">Pack 5 Sessioni</div>
+        <div class="course-icon">
+          <i class="fas fa-sun"></i>
+        </div>
+        <h3>Consapevolezza Applicata alla Vita Reale</h3>
+        <p>Porta la spiritualità nella tua quotidianità. Impara a vivere ogni giorno con presenza, equilibrio e connessione profonda con te stessa.</p>
+        <ul class="course-features">
+          <li><i class="fas fa-check"></i> 5 sessioni 1:1 (60 min)</li>
+          <li><i class="fas fa-check"></i> Esercizi pratici quotidiani</li>
+          <li><i class="fas fa-check"></i> Pratiche di mindfulness</li>
+          <li><i class="fas fa-check"></i> Supporto WhatsApp</li>
+        </ul>
+        <div class="course-price">
+          <span class="price">€247</span>
+        </div>
+        <button class="buy-btn large" onclick="checkout('consapevolezza')">
+          <i class="fas fa-calendar-check"></i> Prenota Ora
+        </button>
+      </div>
+    </div>
+  </section>
+
+  <section class="cta-section">
+    <div class="cta-content">
+      <h2>Hai Domande?</h2>
+      <p>Contattami per scoprire quale percorso è più adatto a te.</p>
+      <a href="/#contatti" class="cta-button large">Contattami</a>
+    </div>
+  </section>
+
+  <footer>
+    <div class="footer-content">
+      <div class="footer-logo">ALMA</div>
+      <div class="footer-social">
+        <a href="https://instagram.com/alma_coachlife" target="_blank"><i class="fab fa-instagram"></i></a>
+        <a href="mailto:almalifecoachinfo@libero.it"><i class="fas fa-envelope"></i></a>
+      </div>
+      <p>&copy; 2026 ALMA. Tutti i diritti riservati.</p>
+      <div class="footer-links">
+        <a href="#">Privacy Policy</a>
+        <a href="#">Termini e Condizioni</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="/js/main.js"></script>
+  <script>
+    async function checkout(productId) {
+      try {
+        const btn = event.target.closest('.buy-btn');
+        btn.disabled = true;
+        btn.innerHTML = '<i class="fas fa-spinner fa-spin"></i> Caricamento...';
+        
+        const response = await fetch('/api/checkout', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({ productId })
+        });
+        const data = await response.json();
+        if (data.url) {
+          window.location.href = data.url;
+        } else {
+          alert('Errore nel processare il pagamento. Riprova.');
+          btn.disabled = false;
+          btn.innerHTML = '<i class="fas fa-calendar-check"></i> Prenota Ora';
+        }
+      } catch (error) {
+        console.error('Checkout error:', error);
+        alert('Errore nel processare il pagamento. Riprova.');
+      }
+    }
+  </script>
+</body>
+</html>

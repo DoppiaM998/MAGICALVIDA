@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Percorso Deluxe - ALMA Coaching Spirituale</title>
+  <link rel="stylesheet" href="/css/style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;1,300;1,400&family=Quicksand:wght@300;400;500;600&family=Tangerine:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+  <nav class="navbar">
+    <div class="nav-container">
+      <a href="/" class="logo">
+        <span class="logo-main">ALMA</span>
+        <span class="logo-subtitle">coaching life</span>
+      </a>
+      <ul class="nav-links">
+        <li><a href="/corsi.html">Percorsi</a></li>
+        <li><a href="/deluxe.html">Percorso Deluxe</a></li>
+        <li><a href="/chisono.html">Chi Sono</a></li>
+        <li><a href="/collaborazioni.html">Collaborazioni</a></li>
+        <li><a href="/#contatti">Contatti</a></li>
+      </ul>
+      <div class="lang-switch">
+        <span class="active">IT</span> | <span>ES</span>
+      </div>
+      <button class="mobile-menu-btn">
+        <i class="fas fa-bars"></i>
+      </button>
+    </div>
+  </nav>
+
+  <section class="page-hero deluxe-page-hero">
+    <div class="page-hero-content">
+      <span class="deluxe-label">Esclusivo</span>
+      <h1>Percorso Deluxe 1:1</h1>
+      <p>Un viaggio personalizzato, cucito su di te. Ti accompagno passo dopo passo verso la tua rinascita.</p>
+    </div>
+  </section>
+
+  <section class="deluxe-full">
+    <div class="deluxe-features">
+      <div class="feature-item extra-service">
+        <i class="fas fa-video"></i>
+        <h4>Sessione Live 1:1</h4>
+        <p>Incontro individuale via Zoom (60 min)</p>
+        <span class="extra-price">€89,90</span>
+        <button class="buy-btn" onclick="checkout('sessione')">
+          <i class="fas fa-shopping-cart"></i> Acquista
+        </button>
+      </div>
+      <div class="feature-item extra-service">
+        <i class="fas fa-star"></i>
+        <h4>Mappa Natale</h4>
+        <p>Analisi del tuo tema natale</p>
+        <span class="extra-price">€29,90</span>
+        <button class="buy-btn" onclick="checkout('mappa')">
+          <i class="fas fa-shopping-cart"></i> Acquista
+        </button>
+      </div>
+      <div class="feature-item extra-service audio-meditazioni-card">
+        <img src="/images/yoga-icon.svg" alt="Yoga" class="yoga-icon">
+        <h4>Audio-Meditazioni</h4>
+        <p>3 meditazioni guidate scaricabili:</p>
+        <ul class="meditazioni-list">
+          <li>Liberazione da un Dolore Passato</li>
+          <li>Apertura Chakra</li>
+          <li>La Mongolfiera - Scegliere la Giusta Direzione</li>
+        </ul>
+        <span class="extra-price">€24,90</span>
+        <button class="buy-btn" onclick="checkout('meditazioni')">
+          <i class="fas fa-shopping-cart"></i> Acquista
+        </button>
+      </div>
+    </div>
+
+    <div class="deluxe-packages">
+      <div class="package-card">
+        <h3>Pack 5 Sessioni</h3>
+        <div class="package-price">
+          <span class="currency">€</span>
+          <span class="amount">399</span>
+        </div>
+        <ul class="package-features">
+          <li><i class="fas fa-check"></i> 5 sessioni 1:1 (60 min)</li>
+          <li><i class="fas fa-check"></i> Piano personalizzato</li>
+          <li><i class="fas fa-check"></i> Supporto WhatsApp</li>
+        </ul>
+        <button class="buy-btn large" onclick="checkout('pack5')">
+          <i class="fas fa-shopping-cart"></i> Acquista Ora
+        </button>
+      </div>
+
+      <div class="package-card premium">
+        <div class="package-badge">Consigliato</div>
+        <h3>Pack 10 Sessioni</h3>
+        <div class="package-price">
+          <span class="currency">€</span>
+          <span class="amount">799</span>
+        </div>
+        <ul class="package-features">
+          <li><i class="fas fa-check"></i> 10 sessioni 1:1 (60 min)</li>
+          <li><i class="fas fa-check"></i> Trasformazione profonda</li>
+          <li><i class="fas fa-check"></i> Supporto prioritario</li>
+          <li><i class="fas fa-check"></i> Bonus: 2 meditazioni custom</li>
+        </ul>
+        <button class="buy-btn large" onclick="checkout('pack10')">
+          <i class="fas fa-shopping-cart"></i> Acquista Ora
+        </button>
+      </div>
+    </div>
+
+    <div class="payment-info">
+      <p><i class="fas fa-shield-alt"></i> Pagamento sicuro con carta di credito | <i class="fas fa-lock"></i> Protetto da Stripe</p>
+    </div>
+  </section>
+
+  <section class="cta-section">
+    <div class="cta-content">
+      <h2>Pronta a Iniziare?</h2>
+      <p>Scegli il percorso che risuona con te e inizia la tua trasformazione.</p>
+      <p class="contact-note">Hai dubbi o domande? <a href="/#contatti">Scrivimi un'email</a> e sarò felice di aiutarti.</p>
+    </div>
+  </section>
+
+  <footer>
+    <div class="footer-content">
+      <div class="footer-logo">ALMA</div>
+      <div class="footer-social">
+        <a href="https://instagram.com/alma_coachlife" target="_blank"><i class="fab fa-instagram"></i></a>
+        <a href="mailto:almalifecoachinfo@libero.it"><i class="fas fa-envelope"></i></a>
+      </div>
+      <p>&copy; 2026 ALMA. Tutti i diritti riservati.</p>
+      <div class="footer-links">
+        <a href="#">Privacy Policy</a>
+        <a href="#">Termini e Condizioni</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="/js/main.js"></script>
+  <script>
+    async function checkout(productId) {
+      try {
+        const btn = event.target.closest('.buy-btn');
+        btn.disabled = true;
+        btn.innerHTML = '<i class="fas fa-spinner fa-spin"></i> Caricamento...';
+        
+        const response = await fetch('/api/checkout', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({ productId })
+        });
+        const data = await response.json();
+        if (data.url) {
+          window.location.href = data.url;
+        } else {
+          alert('Errore nel processare il pagamento. Riprova.');
+          btn.disabled = false;
+          btn.innerHTML = '<i class="fas fa-shopping-cart"></i> Acquista';
+        }
+      } catch (error) {
+        console.error('Checkout error:', error);
+        alert('Errore nel processare il pagamento. Riprova.');
+      }
+    }
+  </script>
+</body>
+</html>
