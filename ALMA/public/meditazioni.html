@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Audio-Meditazioni - ALMA Coaching Spirituale</title>
+  <link rel="stylesheet" href="/css/style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;1,300;1,400&family=Quicksand:wght@300;400;500;600&family=Tangerine:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <style>
+    .meditazioni-container {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 4rem 2rem;
+    }
+    .meditazioni-intro {
+      text-align: center;
+      margin-bottom: 3rem;
+    }
+    .meditazioni-intro h1 {
+      font-size: 3.5rem;
+      color: var(--gold);
+      margin-bottom: 1rem;
+    }
+    .meditazioni-intro p {
+      color: var(--text-light);
+      font-size: 1.1rem;
+    }
+    .audio-card {
+      background: var(--white);
+      border-radius: 16px;
+      padding: 2rem;
+      margin-bottom: 1.5rem;
+      box-shadow: 0 4px 20px rgba(0,0,0,0.08);
+      border: 1px solid var(--border-light);
+    }
+    .audio-card h3 {
+      font-size: 2rem;
+      color: var(--text-dark);
+      margin-bottom: 0.5rem;
+    }
+    .audio-card p {
+      color: var(--text-light);
+      margin-bottom: 1.5rem;
+    }
+    .audio-player {
+      width: 100%;
+      margin-bottom: 1rem;
+    }
+    .download-btn {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.5rem;
+      background: linear-gradient(135deg, var(--gold) 0%, var(--gold-light) 100%);
+      color: var(--white);
+      padding: 0.8rem 1.5rem;
+      border-radius: 25px;
+      text-decoration: none;
+      font-weight: 600;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+    .download-btn:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 4px 15px rgba(201, 169, 98, 0.4);
+    }
+    .access-notice {
+      background: linear-gradient(135deg, var(--pink) 0%, var(--lavender) 100%);
+      padding: 2rem;
+      border-radius: 16px;
+      text-align: center;
+      margin-bottom: 2rem;
+    }
+    .access-notice i {
+      font-size: 2.5rem;
+      color: var(--gold);
+      margin-bottom: 1rem;
+    }
+    .access-notice h3 {
+      font-size: 1.8rem;
+      margin-bottom: 0.5rem;
+    }
+    .back-link {
+      display: inline-block;
+      margin-top: 2rem;
+      color: var(--gold);
+      text-decoration: none;
+      font-weight: 500;
+    }
+    .back-link:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+  <nav class="navbar">
+    <div class="nav-container">
+      <a href="/" class="logo">
+        <span class="logo-main">ALMA</span>
+        <span class="logo-subtitle">coaching life</span>
+      </a>
+      <ul class="nav-links">
+        <li><a href="/corsi.html">Corsi</a></li>
+        <li><a href="/deluxe.html">Percorso Deluxe</a></li>
+        <li><a href="/chisono.html">Chi Sono</a></li>
+        <li><a href="/collaborazioni.html">Collaborazioni</a></li>
+        <li><a href="/#contatti">Contatti</a></li>
+      </ul>
+      <div class="lang-switch">
+        <span class="active">IT</span> | <span>ES</span>
+      </div>
+      <button class="mobile-menu-btn">
+        <i class="fas fa-bars"></i>
+      </button>
+    </div>
+  </nav>
+
+  <section class="page-hero">
+    <div class="page-hero-content">
+      <h1>Audio-Meditazioni</h1>
+      <p>Meditazioni guidate per la tua crescita interiore</p>
+    </div>
+  </section>
+
+  <div class="meditazioni-container">
+    <div class="access-notice">
+      <i class="fas fa-lock"></i>
+      <h3>Area Riservata</h3>
+      <p>Questa pagina contiene le meditazioni incluse nel pacchetto Audio-Meditazioni.<br>Se hai acquistato il pacchetto, puoi ascoltare e scaricare i contenuti qui sotto.</p>
+    </div>
+
+    <div class="audio-card">
+      <h3>Liberazione da un Dolore Passato</h3>
+      <p>Una meditazione profonda per lasciar andare il peso del passato e ritrovare la pace interiore.</p>
+      <audio class="audio-player" controls>
+        <source src="/audio/liberazione-da-un-dolore-passato.mp3" type="audio/mpeg">
+        Il tuo browser non supporta l'elemento audio.
+      </audio>
+      <a href="/audio/liberazione-da-un-dolore-passato.mp3" download class="download-btn">
+        <i class="fas fa-download"></i> Scarica
+      </a>
+    </div>
+
+    <div class="audio-card">
+      <h3>Apertura Chakra</h3>
+      <p>Riequilibra i tuoi centri energetici con questa meditazione guidata sull'apertura dei chakra.</p>
+      <audio class="audio-player" controls>
+        <source src="/audio/apertura-chakra.mp3" type="audio/mpeg">
+        Il tuo browser non supporta l'elemento audio.
+      </audio>
+      <a href="/audio/apertura-chakra.mp3" download class="download-btn">
+        <i class="fas fa-download"></i> Scarica
+      </a>
+    </div>
+
+    <div class="audio-card">
+      <h3>La Mongolfiera - Scegliere la Giusta Direzione</h3>
+      <p>Un viaggio immaginativo per trovare chiarezza nelle tue scelte e seguire il tuo cammino autentico.</p>
+      <audio class="audio-player" controls>
+        <source src="/audio/la-mongolfiera-scegliere-la-giusta-direzione.mp3" type="audio/mpeg">
+        Il tuo browser non supporta l'elemento audio.
+      </audio>
+      <a href="/audio/la-mongolfiera-scegliere-la-giusta-direzione.mp3" download class="download-btn">
+        <i class="fas fa-download"></i> Scarica
+      </a>
+    </div>
+
+    <div style="text-align: center;">
+      <a href="/deluxe.html" class="back-link"><i class="fas fa-arrow-left"></i> Torna ai Percorsi</a>
+    </div>
+  </div>
+
+  <footer>
+    <div class="footer-content">
+      <div class="footer-logo">ALMA</div>
+      <div class="footer-social">
+        <a href="https://instagram.com/alma_coachlife" target="_blank"><i class="fab fa-instagram"></i></a>
+        <a href="mailto:almalifecoachinfo@libero.it"><i class="fas fa-envelope"></i></a>
+      </div>
+      <p>&copy; 2026 ALMA. Tutti i diritti riservati.</p>
+      <div class="footer-links">
+        <a href="#">Privacy Policy</a>
+        <a href="#">Termini e Condizioni</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="/js/main.js"></script>
+</body>
+</html>

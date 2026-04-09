@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pagamento Completato - ALMA</title>
+  <link rel="stylesheet" href="/css/style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;1,300;1,400&family=Quicksand:wght@300;400;500;600&family=Tangerine:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <style>
+    .success-container {
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      padding: 2rem;
+      background: linear-gradient(135deg, rgba(255, 182, 193, 0.3) 0%, rgba(255, 255, 255, 0.95) 50%, rgba(255, 182, 193, 0.3) 100%);
+    }
+    .success-icon {
+      font-size: 5rem;
+      color: var(--gold);
+      margin-bottom: 2rem;
+    }
+    .success-container h1 {
+      font-size: 4rem;
+      margin-bottom: 1rem;
+    }
+    .success-container p {
+      font-size: 1.3rem;
+      color: var(--text-light);
+      margin-bottom: 2rem;
+      max-width: 600px;
+    }
+    .home-button {
+      display: inline-block;
+      padding: 1rem 2.5rem;
+      background: var(--gold);
+      color: white;
+      text-decoration: none;
+      border-radius: 50px;
+      font-weight: 500;
+      transition: all 0.3s ease;
+    }
+    .home-button:hover {
+      background: #b8963f;
+      transform: translateY(-2px);
+    }
+  </style>
+</head>
+<body>
+  <div class="success-container">
+    <i class="fas fa-check-circle success-icon"></i>
+    <h1>Grazie per il tuo acquisto!</h1>
+    <p>Il pagamento è stato completato con successo. Riceverai a breve una email con tutti i dettagli del tuo percorso.</p>
+    <a href="/" class="home-button">Torna alla Home</a>
+  </div>
+</body>
+</html>
